@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Ranjith C | Python Developer Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body>
+    <div class="bg-animation"></div>
+    <canvas id="particlesCanvas"></canvas>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">RC.</div>
+            <div class="nav-links">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="theme-toggle" id="themeToggle"><i class="fas fa-moon"></i></div>
+            <div class="mobile-menu">☰</div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <span class="hero-greeting">Hello, I'm</span>
+                <h1 class="hero-name">Ranjith C</h1>
+                <p class="hero-role">Entry-level Python Developer</p>
+                <p class="hero-description">Entry-level Python Developer with strong foundation in Python, MySQL, HTML, CSS, and JavaScript. Skilled in projects with database integration and problem-solving. Passionate about collaborative development.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn-primary">Contact Me</a>
+                    <a href="assets/Ranjith_Resume.pdf" class="btn-outline" download="Ranjith_Resume.pdf">Download Resume</a>
+                </div>
+            </div>
+            <div class="hero-illustration"><div class="code-icon"><i class="fab fa-python"></i></div></div>
+        </div>
+    </section>
+
+    <section id="about" class="section"><div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-card"><p><strong>Professional Summary</strong><br>Entry-level Python Developer with a strong foundation in Python, MySQL, HTML, CSS, and JavaScript. Skilled in developing projects with database integration and problem-solving abilities. Passionate about contributing to collaborative development environments while continuously learning new technologies.</p>
+        <div class="education-block"><h3>Education</h3>
+            <div class="edu-item"><span class="edu-degree">B.Tech in AI & Data Science</span><span class="edu-institute">Dhanalakshmi College of Engineering, Chennai</span><span class="edu-year">2021-2025</span><span class="edu-percent">80%</span></div>
+            <div class="edu-item"><span class="edu-degree">Higher Secondary (HSC)</span><span class="edu-institute">Don Bosco Matriculation HSS, Panmur</span><span class="edu-percent">80%</span></div>
+            <div class="edu-item"><span class="edu-degree">SSLC</span><span class="edu-institute">Don Bosco Matriculation HSS, Panmur</span><span class="edu-percent">78%</span></div>
+        </div></div>
+    </div></section>
+
+    <section id="skills" class="section alt-bg"><div class="container">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card"><i class="fab fa-python"></i><h3>Python</h3><p>Core Python, OOP, Django</p></div>
+            <div class="skill-card"><i class="fas fa-database"></i><h3>SQL & MySQL</h3><p>SQLite, database design, CRUD</p></div>
+            <div class="skill-card"><i class="fab fa-js"></i><h3>JavaScript</h3><p>ES6, DOM, Fetch API</p></div>
+            <div class="skill-card"><i class="fab fa-react"></i><h3>React.js</h3><p>Components, hooks, state</p></div>
+            <div class="skill-card"><i class="fab fa-html5"></i><h3>HTML5 & CSS3</h3><p>Responsive design, Flexbox, Grid</p></div>
+            <div class="skill-card"><i class="fab fa-git-alt"></i><h3>Git & GitHub</h3><p>Version control, collaboration</p></div>
+            
+        </div>
+    </div></section>
+
+    <section id="projects" class="section"><div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card"><div class="project-img"><i class="fas fa-cloud-sun-rain"></i></div><div class="project-content"><h3>Weather Forecasting App</h3><p>Real-time weather web app using HTML, CSS, JS, and Weather API. Features 5-day forecast, air quality, UV index, and AI voice search.</p><div class="project-tech"><span>JavaScript</span><span>REST API</span><span>CSS</span></div><div class="project-links"><a href="#" class="project-link">GitHub</a><a href="#" class="project-link live">Live Demo</a></div></div></div>
+            <div class="project-card"><div class="project-img"><i class="fas fa-chart-line"></i></div><div class="project-content"><h3>Stock Price Prediction</h3><p>Developed a stock price prediction model using Python and historical data. Applied ARIMA, Random Forest, and LSTM. Data visualization with Matplotlib & Seaborn.</p><div class="project-tech"><span>Python</span><span>LSTM</span><span>Scikit-learn</span></div><div class="project-links"><a href="#" class="project-link">GitHub</a><a href="#" class="project-link live">View Report</a></div></div></div>
+        </div>
+    </div></section>
+
+    <section id="experience" class="section alt-bg"><div class="container">
+        <h2 class="section-title">Experience</h2>
+        <div class="experience-card"><div class="exp-header"><h3>RJ ENTERPRISES - Admin / Operations Support</h3><span class="exp-date">Aug 2025 - Apr 2026</span></div><ul><li>Managed manpower coordination, employee records, and daily operational activities.</li><li>Supported NAPS registration, onboarding process, and candidate coordination for smooth workflow execution.</li></ul></div>
+        <div class="experience-card"><h3>Practical Training & Learning</h3><ul><li>Built responsive web applications using HTML, CSS, JavaScript, React.js, and Django.</li><li>Gained hands-on experience in Python programming, CRUD operations, and database management using MySQL and SQLite.</li><li>Practiced API integration and backend development using Django.</li></ul></div>
+    </div></section>
+
+    <section id="contact" class="section"><div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-wrapper">
+            <div class="contact-info"><h3>Let's work together</h3><p>I'm actively looking for entry-level Python Developer opportunities. Feel free to reach out!</p><div class="contact-details"><div><i class="fas fa-envelope"></i> ranjith.c@example.com</div><div><i class="fas fa-phone-alt"></i> +91 98765 43210</div><div><i class="fas fa-map-marker-alt"></i> Chennai, India</div></div><div class="social-links"><a href="#"><i class="fab fa-github"></i></a><a href="#"><i class="fab fa-linkedin-in"></i></a><a href="#"><i class="fab fa-twitter"></i></a></div></div>
+            <div class="contact-form-card"><h3>Send a Message</h3><form id="contactForm"><input type="text" name="name" placeholder="Your Name" required><input type="email" name="email" placeholder="Your Email" required><textarea name="message" rows="4" placeholder="Your Message" required></textarea><button type="submit" class="btn-primary">Send Message <i class="fas fa-paper-plane"></i></button></form></div>
+        </div>
+    </div></section>
+
+    <footer class="footer"><div class="container"><p>© 2025 Ranjith C. Built with <i class="fas fa-heart"></i> and modern web technologies.</p></div></footer>
+    <div id="toast" class="toast">Message sent! I'll get back soon.</div>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
